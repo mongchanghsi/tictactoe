@@ -1,6 +1,5 @@
 ## Tic Tac Toe
 
-### How it was developed
 Bootstrapped using create-react-app and MaterialUI
 
 ### Features
