@@ -6,13 +6,13 @@ const useStyles = makeStyles((theme) => ({
   root: {
     padding: '30px 0 30px 0',
     [theme.breakpoints.up('xs')]: {
-      fontSize: '50px'
+      fontSize: '40px'
     },
     [theme.breakpoints.up('md')]: {
-      fontSize: '70px'
+      fontSize: '60px'
     },
     [theme.breakpoints.up('lg')]: {
-      fontSize: '100px'
+      fontSize: '80px'
     },
   }
 }))

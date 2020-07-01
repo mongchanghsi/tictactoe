@@ -13,20 +13,20 @@ const useStyles = makeStyles((theme) => ({
     },
     margin: theme.spacing(1),
     [theme.breakpoints.up('md')]: {
-      fontSize: '20px'
+      fontSize: '15px'
     },
     [theme.breakpoints.up('lg')]: {
-      fontSize: '27px'
+      fontSize: '20px'
     },
   },
   logo: {
     [theme.breakpoints.up('md')]: {
-      width: '20px',
-      height: '20px'
+      width: '15px',
+      height: '15px'
     },
     [theme.breakpoints.up('lg')]: {
-      width: '27px',
-      height: '27px'
+      width: '20px',
+      height: '20px'
     },
   }
 }))

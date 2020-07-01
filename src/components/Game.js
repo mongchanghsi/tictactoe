@@ -25,13 +25,9 @@ const useStyles = theme => ({
       width: "405px",
       height: "405px",
     },
-    [theme.breakpoints.up('md')]: {
-      width: "504px",
-      height: "504px",
-    },
     [theme.breakpoints.up('lg')]: {
-      width: "675px",
-      height: "675px",
+      width: "540px",
+      height: "540px",
     }
   },
   block: {
@@ -47,13 +43,9 @@ const useStyles = theme => ({
       width: "135px",
       height: "135px"
     },
-    [theme.breakpoints.up('md')]: {
-      width: "168px",
-      height: "168px"
-    },
     [theme.breakpoints.up('lg')]: {
-      width: "225px",
-      height: "225px"
+      width: "180px",
+      height: "180px"
     },
     "&:hover": {
       backgroundColor: '#33c9dc',
@@ -83,10 +75,10 @@ const useStyles = theme => ({
       fontSize: '30px'
     },
     [theme.breakpoints.up('md')]: {
-      fontSize: '50px'
+      fontSize: '40px'
     },
     [theme.breakpoints.up('lg')]: {
-      fontSize: '80px'
+      fontSize: '50px'
     }
   }
 })
