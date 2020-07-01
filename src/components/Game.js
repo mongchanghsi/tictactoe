@@ -26,12 +26,12 @@ const useStyles = theme => ({
       height: "405px",
     },
     [theme.breakpoints.up('md')]: {
-      width: "672px",
-      height: "672px",
+      width: "504px",
+      height: "504px",
     },
     [theme.breakpoints.up('lg')]: {
-      width: "900px",
-      height: "900px",
+      width: "675px",
+      height: "675px",
     }
   },
   block: {
@@ -48,12 +48,12 @@ const useStyles = theme => ({
       height: "135px"
     },
     [theme.breakpoints.up('md')]: {
-      width: "224px",
-      height: "224px"
+      width: "168px",
+      height: "168px"
     },
     [theme.breakpoints.up('lg')]: {
-      width: "300px",
-      height: "300px"
+      width: "225px",
+      height: "225px"
     },
     "&:hover": {
       backgroundColor: '#33c9dc',
@@ -70,12 +70,12 @@ const useStyles = theme => ({
       height: "80px"
     },
     [theme.breakpoints.up('md')]: {
-      width: "140px",
-      height: "140px"
+      width: "105px",
+      height: "105px"
     },
     [theme.breakpoints.up('lg')]: {
-      width: "180px",
-      height: "180px"
+      width: "135px",
+      height: "135px"
     }
   },
   gameText: {
