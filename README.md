@@ -20,13 +20,11 @@ Responsive Tic Tac Toe program, bootstrapped using create-react-app and Material
 
 ### Images
 
-![ttt1](C:\Users\m_cha\Desktop\react-storage\Github-Pulls\tictactoe\readmeimg\ttt1.png)
+![](readmeimg/ttt1.png)
 
-![ttt2](C:\Users\m_cha\Desktop\react-storage\Github-Pulls\tictactoe\readmeimg\ttt2.png)
+![](readmeimg/ttt2.png)
 
-![ttt3](C:\Users\m_cha\Desktop\react-storage\Github-Pulls\tictactoe\readmeimg\ttt3.png)
-
-
+![](readmeimg/ttt3.png)
 
 --------------------
 
