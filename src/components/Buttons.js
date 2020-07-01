@@ -12,22 +12,26 @@ const useStyles = makeStyles((theme) => ({
       color: '#FFF'
     },
     margin: theme.spacing(1),
-    [theme.breakpoints.up('xs')]: {
-
-    },
-    [theme.breakpoints.up('sm')]: {
-
-    },
     [theme.breakpoints.up('md')]: {
-
+      fontSize: '20px'
     },
     [theme.breakpoints.up('lg')]: {
-
+      fontSize: '27px'
+    },
+  },
+  logo: {
+    [theme.breakpoints.up('md')]: {
+      width: '20px',
+      height: '20px'
+    },
+    [theme.breakpoints.up('lg')]: {
+      width: '27px',
+      height: '27px'
     },
   }
 }))
 
 export function RefreshButton(props){
   const classes = useStyles();
-  return <Button variant='contained' className={classes.refreshButton} startIcon={<RefreshIcon/>} onClick={props.restart}> Restart Game </Button>
+  return <Button variant='contained' className={classes.refreshButton} startIcon={<RefreshIcon className={classes.logo}/>} onClick={props.restart}> Restart Game </Button>
 }
